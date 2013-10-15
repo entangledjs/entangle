@@ -45,3 +45,15 @@ describe('DO', function(){
     });
   })
 })
+
+describe('DO#set(object)', function(){
+  it('should merge without broadcasting', function(){
+    var user = object('users/tobi');
+    
+    //user.set({ name: 'Tobi', age: 2 });
+
+    user.on('change', function(e){
+      assert(false, '"change" event still fired');
+    });
+  })
+})
