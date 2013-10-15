@@ -1,4 +1,3 @@
-
 # Entangle
 
   Distributed objects for nodejs using `Object.observe()`. Possibly browser support
@@ -32,7 +31,7 @@ config.on('change', function(){
 });
 ```
 
- Any process may then manipulate the object. With configiguration
+ Any process may then manipulate the object. With configuration
  as an example you may then launch a REPL and manipulate it on
  the fly:
 
