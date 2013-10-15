@@ -1,0 +1,26 @@
+{
+  "name": "do",
+  "version": "0.0.1",
+  "repository": "dojs/do",
+  "description": "Distributed JavaScript objects using Object.observe()",
+  "keywords": [
+    "distributed",
+    "object",
+    "database",
+    "persistence",
+    "persist",
+    "do",
+    "db",
+    "rpc"
+  ],
+  "dependencies": {
+    "uid2": "0.0.3",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "entangle-redis": "0.0.1"
+  },
+  "license": "MIT"
+}
