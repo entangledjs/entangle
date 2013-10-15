@@ -49,8 +49,8 @@ app> config.cookieMaxAge = 600000;
   Entangle the given object `name`. The `name` is an arbitrary
   string that represents a given object, this may be anything you
   want. For example "users/tobi", "config", "users.tobi", "foo.com/users/123",
-  and so on. This identfier is used so that all processes may access
-  the same object.
+  and so on. Keep in mind however that this format may have significance for specific backends,
+  for that reason the `/`-delimited string is recommended.
 
 ## Guide
 
