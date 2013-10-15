@@ -1,7 +1,7 @@
 
 # Entangle
 
-  Distributed Objects in JavaScript using `Object.observe()`. Possibly browser support
+  Distributed Objects for nodejs using `Object.observe()`. Possibly browser support
   and Object.observe() fallbacks in the future. For now this is a toy experimental library
   with several drivers to choose from:
 
