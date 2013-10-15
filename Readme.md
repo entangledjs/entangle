@@ -10,6 +10,8 @@
 
 ## Installation
 
+  Node 0.11.x must be used for `--harmony` support.
+
 ```
 $ npm install entangled
 ```
