@@ -58,17 +58,13 @@ app> config.cookieMaxAge = 600000;
 
 ### Events
 
-  The following events are currently supported:
+  The following events are currently supported. All events are passed an event object. On initialization the "change" event will have `.init` with a value of __true__.
 
   - `change` when a change has been made to the object
   - `change <prop>` when a property has been updated
   - `new <prop>` when a property has been added
   - `delete <prop>` when a property has been deleted
   - `reconfigure <prop>` when a property has been reconfigured
-
-  All of these events have an event object passed. On initialization
-  the "change" event will have `.init == true`, and otherwise will
-  have a `.changes` array.
 
 ### Initialization
 
