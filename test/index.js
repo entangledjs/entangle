@@ -3,8 +3,8 @@ var Redis = require('entangle-redis');
 var object = require('..')(new Redis);
 var assert = require('assert');
 
-describe('persisted objects', function(){
-  it('should be emitters', function(){
+describe('DO', function(){
+  it('should be an emitter', function(){
     var user = object('users/jane');
     assert('function' == typeof user.emit);
     assert('function' == typeof user.on);
