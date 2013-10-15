@@ -47,13 +47,16 @@ describe('DO', function(){
 })
 
 describe('DO#set(object)', function(){
-  it('should merge without broadcasting', function(){
-    var user = object('users/tobi');
+  it('should merge without broadcasting', function(done){
+    var user = object('users/ewald');
     
-    //user.set({ name: 'Tobi', age: 2 });
-
     user.on('change', function(e){
-      assert(false, '"change" event still fired');
+      if (e.init) {
+        user.set({ name: 'Tobi', age: 2 });
+        setTimeout(done, 50); // TODO: super lame... spy
+      } else {
+        assert(false, '"change" event still fired');
+      }
     });
   })
 })
