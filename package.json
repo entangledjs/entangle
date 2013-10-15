@@ -1,16 +1,16 @@
 {
-  "name": "do",
+  "name": "entangle",
   "version": "0.0.1",
-  "repository": "dojs/do",
-  "description": "Distributed JavaScript objects using Object.observe()",
+  "repository": "entanglejs/entangle",
+  "description": "Distributed JavaScript objects using Object.observe() with pluggable drivers",
   "keywords": [
     "distributed",
     "object",
     "database",
     "persistence",
     "persist",
-    "do",
-    "db",
+    "entangle",
+    "entangled",
     "rpc"
   ],
   "dependencies": {
