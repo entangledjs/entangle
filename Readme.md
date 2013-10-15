@@ -6,6 +6,7 @@
   with several drivers to choose from:
 
   - [redis](https://github.com/entangledjs/redis)
+  - [mongo](https://github.com/entangledjs/mongo)
   - [etcd](https://github.com/entangledjs/etcd)
 
 ## Installation
