@@ -50,6 +50,10 @@ app> config.cookieMaxAge = 600000;
 
   The `name` is an arbitrary string that represents a given object, this may be anything you want. For example "users/tobi", "config", "users.tobi", "foo.com/users/123", and so on. Keep in mind however that this format may have significance for specific backends, for that reason the `/`-delimited string is recommended.
 
+### DO()
+
+  Distributed object that inherets from `Emitter#prototype`.
+
 ### DO#set(object)
 
   Merge `object`'s properties silently without broadcasting changes.
